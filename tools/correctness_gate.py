@@ -27,6 +27,7 @@ import argparse
 import base64
 import hashlib
 import json
+import os
 import subprocess
 import sys
 from datetime import datetime, timedelta, timezone
@@ -383,8 +384,9 @@ def append_receipt(prover: CorrectnessProver, ledger: Path, record: dict[str, An
 # Demo: property-verify (fresh) + Sentinel (from evidence) -> 4 scenarios
 # --------------------------------------------------------------------------- #
 
-LAB = Path("/Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab")
-EXP = LAB / "experiment"
+HERE = Path(__file__).resolve().parent              # .../tools
+EXP = HERE.parent                                    # repo root (the experiment/product dir)
+LAB = Path(os.environ.get("LAB", str(EXP.parent)))   # agent-lab holding sibling repos + .venvs
 TSX = LAB / "sentinel-verified" / "node_modules" / ".bin" / "tsx"
 PV = EXP / "tools" / "property-verify.mjs"
 PC = EXP / "property-contract.json"

@@ -2,8 +2,8 @@
   "allocation_id": "alloc_001",
   "total_pence": 1000000,
   "parties": 3,
-  "executed_at": "2026-11-01T21:01:56.649720Z",
+  "executed_at": "2026-11-01T21:05:52.754167Z",
   "authority": "actenon-pccb:nonce-armB-0001",
-  "correctness_cert": "d2b31bb1d8090e9f8df93f0da53eb937e92df04fce84663954cd43c2302f30bc",
+  "correctness_cert": "2bb782e514846245ca588893467ccf6e05f542ed92d14482453ff8b6b96c56eb",
   "code_sha256": "755e8a8397efb9c02c387c87e89f4c53e20637b7933a75f9b9607ee770fa9ee7"
 }

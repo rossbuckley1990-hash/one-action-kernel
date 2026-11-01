@@ -26,7 +26,7 @@
   ✓ VERIFIED             Pence formatting is unchanged
   ✓ VERIFIED             Observed behaviour: unchanged-formatting
 
-  CONTRADICTED · 6.04s · local advisory verification
+  CONTRADICTED · 3.52s · local advisory verification
   Results cover the executed checks. They do not prove arbitrary correctness.
-  Receipt 5472279512e5752bea0c03976dbe5b863933845bc84721e574786cc976c39745
-  Report  /Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/.run2/.sentinel-store/reports/5472279512e5752bea0c03976dbe5b863933845bc84721e574786cc976c39745.html
+  Receipt 23c4827774cd7eb6cfc5c1888e5e5cd2ce1233bf62752fcd2d2f0669f1aded49
+  Report  /Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/.run2/.sentinel-store/reports/23c4827774cd7eb6cfc5c1888e5e5cd2ce1233bf62752fcd2d2f0669f1aded49.html

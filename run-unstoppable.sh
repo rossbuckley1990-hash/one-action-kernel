@@ -11,10 +11,10 @@
 # ============================================================================
 set -uo pipefail
 
-# LAB root is configurable so the product is portable when cloned; defaults to the
-# parent of this script's directory (the agent-lab that holds the sibling tool repos).
-LAB="${LAB:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}"
-EXP=$LAB/experiment
+# Portable: EXP is this script's own directory (the repo root); LAB is its parent
+# (the agent-lab holding the sibling tool repos + .venvs). Override LAB via env.
+EXP="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+LAB="${LAB:-$(cd "$EXP/.." && pwd)}"
 SENT=$LAB/sentinel-verified/dist/cli.js
 APP=$LAB/.venvs/apprentice/bin/apprentice
 HOWPY=$LAB/.venvs/howdex/bin/python

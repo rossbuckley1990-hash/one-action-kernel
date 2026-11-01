@@ -17,7 +17,7 @@ Most exposed: agent_tools.py:25  post()
   Rule:                      NET-EGRESS
   Severity:                  medium (sink match: high)
 
-1 findings in 1 files (0.08s)
+1 findings in 1 files (0.03s)
 Next:
   actenon-scan explain agent_tools.py:25
   actenon-scan fix agent_tools.py:25
@@ -28,10 +28,10 @@ Repository analysis: 0 transitively-reachable sinks caught (would have been miss
 == running property-verify fresh on both candidates (200k inputs each) ==
    arm-a property verdict = VIOLATED (trials=200070)
    arm-b property verdict = VERIFIED (trials=200070)
-   arm-a sentinel verdict = CONTRADICTED (receipt=5472279512e5)
-   arm-b sentinel verdict = VERIFIED (receipt=772d0358d2a6)
-   cert A overall=NOT_VERIFIED digest=884aac1a83c8…
-   cert B overall=VERIFIED digest=d2b31bb1d809…
+   arm-a sentinel verdict = CONTRADICTED (receipt=23c4827774cd)
+   arm-b sentinel verdict = VERIFIED (receipt=54bc5270f8f8)
+   cert A overall=NOT_VERIFIED digest=d4b7995bc031…
+   cert B overall=VERIFIED digest=2bb782e51484…
 
 == edge gate decisions ==
    1 Arm A: wrong fix, green tests, valid authority
@@ -48,7 +48,7 @@ Repository analysis: 0 transitively-reachable sinks caught (would have been miss
    authority signer : Ed25519 key_id=correctness-fused-issuer-ed25519-v1  (real ed25519 keypair, NOT the public HMAC dev secret)
    well-known trust root (public JWK): well-known-actenon-keys.json
    third-party verify with PUBLIC KEY ONLY: OK  (asymmetric: anyone can verify, only the key holder can sign)
-   correctness prover (independent ed25519): oXck2-OjkpabIqOlYYSpruYsBqWC4frHAoOsB4XLMLY=
+   correctness prover (independent ed25519): 9ZRJbqQW9pGLrOYXjWNwvmNfDzWdp_FjjIb6XBe6LNw=
    signed decision ledger: /Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/evidence/revolutionary/fused-gate/fused-gate-ledger.jsonl (4 receipts)
    1 wrong-fix-green-tests  -> REFUSE (correctness, not authority)  : NOT_VERIFIED
    2 correct-fix            -> ALLOW + executed disbursement        : AUTHORISED_AND_CORRECT

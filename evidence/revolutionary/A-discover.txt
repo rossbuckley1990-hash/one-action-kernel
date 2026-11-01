@@ -15,7 +15,7 @@ Most exposed: agent_tools.py:25  post()
   Rule:                      NET-EGRESS
   Severity:                  medium (sink match: high)
 
-1 findings in 1 files (0.08s)
+1 findings in 1 files (0.03s)
 Next:
   actenon-scan explain agent_tools.py:25
   actenon-scan fix agent_tools.py:25

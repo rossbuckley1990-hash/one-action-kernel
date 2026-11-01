@@ -1,0 +1,2 @@
+   receipts=4 signatures_verified=4
+   LEDGER: TAMPER-EVIDENT (all verified)

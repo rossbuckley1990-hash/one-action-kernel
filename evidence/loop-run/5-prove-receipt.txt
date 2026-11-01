@@ -1,0 +1,154 @@
+<!-- workproof:receipt -->
+```workproof-receipt
+{
+  "payload": "eyJfdHlwZSI6Imh0dHBzOi8vaW4tdG90by5pby9TdGF0ZW1lbnQvdjEiLCJwcmVkaWNhdGUiOnsiYWdlbnQiOiJxb2RlciIsImFpX2xldmVsIjoiYWdlbnQiLCJiYXNlX3NoYSI6ImM0MjVhM2UiLCJlbnRyaWVzIjpbeyJhcmd2IjpbIm5vZGVfbW9kdWxlcy8uYmluL3ZpdGVzdCIsInJ1biJdLCJjd2RfcmVsYXRpdmUiOiIuIiwiZW5kZWRfYXQiOiIyMDI2LTExLTAxVDE5OjQzOjU4WiIsImVudmlyb25tZW50X2ZpbmdlcnByaW50Ijp7Im9zIjoibWFjT1MtMjcuMC4xLWFybTY0LWFybS02NGJpdCIsInB5dGhvbiI6IjMuMTIuMTMiLCJ0b29scyI6eyJnaXQiOiJnaXQgdmVyc2lvbiAyLjU0LjAgKEFwcGxlIEdpdC0xNTcpIiwicHl0aG9uIjoiMy4xMi4xMyJ9fSwiZXZpZGVuY2VfcGF0aHMiOnsic3Rkb3V0IjoiLndvcmtwcm9vZi9ldmlkZW5jZS8yMDI2MTEwMVQxOTQzNTdaX2YzZGViNWJmLm91dC5neiJ9LCJleGl0X2NvZGUiOjAsImdpdCI6eyJoZWFkX3NoYSI6IjAzNjI3YTdlODM5NThkMWE0ZjdjOTQ4MTEwYWE4YWVjMWViYzRkZTAiLCJ0cmVlX2hhc2giOiJkMjQyN2NlMWI3MmJmYTI1MmVkYjA3NDdkMGZjMTJiOGM1OWZiYWU4In0sImhhc2giOiI1YWUyYmRiNmFmZjQ4ZmE3NmQ1NmNjYjM2YmRmODRjZGJjMjA0ZTExN2UyZjU5YjZmMjIyMmUyMTRjYTQzYmRlIiwia2luZCI6ImNvbW1hbmQiLCJwcmV2X2hhc2giOm51bGwsInN0YXJ0ZWRfYXQiOiIyMDI2LTExLTAxVDE5OjQzOjU3WiIsInN0ZGVycl9zaGEyNTYiOiJlM2IwYzQ0Mjk4ZmMxYzE0OWFmYmY0Yzg5OTZmYjkyNDI3YWU0MWU0NjQ5YjkzNGNhNDk1OTkxYjc4NTJiODU1Iiwic3Rkb3V0X3NoYTI1NiI6IjA4NjIxNjRjZjljNzdiOGZmNzA3OTczNzZiOWZmZmM1ZmE4ZTk0YTdmZTBjMTEzZGNmNDI3MTNlOTdmMmUyYzcifSx7ImFyZ3YiOlsibm9kZV9tb2R1bGVzLy5iaW4vdHN4IiwiL1VzZXJzL3Jvc3MvRG9jdW1lbnRzL1FvZGVyLzIwMjYtMTEtMDEvZDY0OWNmZjcvYWdlbnQtbGFiL2V4cGVyaW1lbnQvdG9vbHMvcXVhbnQubWpzIiwiL1VzZXJzL3Jvc3MvRG9jdW1lbnRzL1FvZGVyLzIwMjYtMTEtMDEvZDY0OWNmZjcvYWdlbnQtbGFiL2V4cGVyaW1lbnQvLnJ1bi90YXJnZXQvc3JjL3NldHRsZS50cyJdLCJjd2RfcmVsYXRpdmUiOiIuIiwiZW5kZWRfYXQiOiIyMDI2LTExLTAxVDE5OjQzOjU5WiIsImVudmlyb25tZW50X2ZpbmdlcnByaW50Ijp7Im9zIjoibWFjT1MtMjcuMC4xLWFybTY0LWFybS02NGJpdCIsInB5dGhvbiI6IjMuMTIuMTMiLCJ0b29scyI6eyJnaXQiOiJnaXQgdmVyc2lvbiAyLjU0LjAgKEFwcGxlIEdpdC0xNTcpIiwicHl0aG9uIjoiMy4xMi4xMyJ9fSwiZXZpZGVuY2VfcGF0aHMiOnsic3Rkb3V0IjoiLndvcmtwcm9vZi9ldmlkZW5jZS8yMDI2MTEwMVQxOTQzNThaXzg4ZTYwYzM1Lm91dC5neiJ9LCJleGl0X2NvZGUiOjAsImdpdCI6eyJoZWFkX3NoYSI6IjAzNjI3YTdlODM5NThkMWE0ZjdjOTQ4MTEwYWE4YWVjMWViYzRkZTAiLCJ0cmVlX2hhc2giOiJkMjQyN2NlMWI3MmJmYTI1MmVkYjA3NDdkMGZjMTJiOGM1OWZiYWU4In0sImhhc2giOiI1ZDI0NmQ0ZWE0OGM5NzMxMTAwNjBhMzg4OGM1OTVkZmJiZDcyMTY5ZTk5NGYzOWMyYzM4ZWM3MWQ0NTg2NGI3Iiwia2luZCI6ImNvbW1hbmQiLCJwcmV2X2hhc2giOiI1YWUyYmRiNmFmZjQ4ZmE3NmQ1NmNjYjM2YmRmODRjZGJjMjA0ZTExN2UyZjU5YjZmMjIyMmUyMTRjYTQzYmRlIiwic3RhcnRlZF9hdCI6IjIwMjYtMTEtMDFUMTk6NDM6NThaIiwic3RkZXJyX3NoYTI1NiI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJzdGRvdXRfc2hhMjU2IjoiYTg1Y2I4ZTA1NjJkZGU1ZTg5YTRmY2I1ZWI0ZmY5MWRmOThmZmJiZWI3N2Y0YWMzNDY1ZmQyYWI4YjBkM2QxNCJ9XSwiZW52aXJvbm1lbnRfZmluZ2VycHJpbnQiOnsib3MiOiJtYWNPUy0yNy4wLjEtYXJtNjQtYXJtLTY0Yml0IiwicHl0aG9uIjoiMy4xMi4xMyIsInRvb2xzIjp7ImdpdCI6ImdpdCB2ZXJzaW9uIDIuNTQuMCAoQXBwbGUgR2l0LTE1NykiLCJweXRob24iOiIzLjEyLjEzIn19LCJmaWxlc19jaGFuZ2VkIjpbInNyYy9zZXR0bGUudHMiXSwiaGVhZF9zaGEiOiIwMzYyN2E3IiwiaGV1cmlzdGljcyI6eyJhc3NlcnRpb25zX3JlbW92ZWQiOjAsImFzc2VydGlvbnNfcmVtb3ZlZF9kZXRhaWxzIjpbXSwibmV3X3NraXBfbWFya2VycyI6MCwibmV3X3NraXBfbWFya2Vyc19kZXRhaWxzIjpbXX0sInBvbGljeSI6eyJhbGxvd2VkX2NvbW1hbmRzIjpbInB5dGVzdCJdLCJkZWZhdWx0X2FpX2xldmVsIjoiYXNzaXN0ZWQiLCJwb2xpY3lfdmVyc2lvbiI6IjAuMSJ9LCJzY2hlbWFfdmVyc2lvbiI6IjAuMiIsInRlc3RfZmlsZXNfYWRkZWQiOltdLCJ0ZXN0X2ZpbGVzX2RlbGV0ZWQiOltdLCJ0ZXN0X2ZpbGVzX21vZGlmaWVkIjpbXX0sInByZWRpY2F0ZVR5cGUiOiJodHRwczovL3dvcmtwcm9vZi5kZXYvc3BlYy92MC4yIiwic3ViamVjdCI6W3siZGlnZXN0Ijp7ImdpdFNoYSI6IjAzNjI3YTciLCJzaGExIjoiMDM2MjdhNyJ9LCJuYW1lIjoiZ2l0OjAzNjI3YTcifV19",
+  "payload_type": "application/vnd.in-toto+json",
+  "public_key": "WNQ7ayKapHLz9yt9myIdYIk3Kf1leSNNfvWgiixcMmo=",
+  "schema_version": "0.2",
+  "signatures": [
+    {
+      "keyid": "ed25519",
+      "sig": "+Hb/nvWAa28BlJYdzqRKzyyPmJqWllanDavRaylqxeQXyx44AWjwgrd8GBNYnf9LFdI1It+r8kpWggC/tR1tAA=="
+    }
+  ],
+  "statement": {
+    "_type": "https://in-toto.io/Statement/v1",
+    "predicate": {
+      "agent": "qoder",
+      "ai_level": "agent",
+      "base_sha": "c425a3e",
+      "entries": [
+        {
+          "argv": [
+            "node_modules/.bin/vitest",
+            "run"
+          ],
+          "cwd_relative": ".",
+          "ended_at": "2026-11-01T19:43:58Z",
+          "environment_fingerprint": {
+            "os": "macOS-27.0.1-arm64-arm-64bit",
+            "python": "3.12.13",
+            "tools": {
+              "git": "git version 2.54.0 (Apple Git-157)",
+              "python": "3.12.13"
+            }
+          },
+          "evidence_paths": {
+            "stdout": ".workproof/evidence/20261101T194357Z_f3deb5bf.out.gz"
+          },
+          "exit_code": 0,
+          "git": {
+            "head_sha": "03627a7e83958d1a4f7c948110aa8aec1ebc4de0",
+            "tree_hash": "d2427ce1b72bfa252edb0747d0fc12b8c59fbae8"
+          },
+          "hash": "5ae2bdb6aff48fa76d56ccb36bdf84cdbc204e117e2f59b6f2222e214ca43bde",
+          "kind": "command",
+          "prev_hash": null,
+          "started_at": "2026-11-01T19:43:57Z",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "0862164cf9c77b8ff70797376b9fffc5fa8e94a7fe0c113dcf42713e97f2e2c7"
+        },
+        {
+          "argv": [
+            "node_modules/.bin/tsx",
+            "/Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/tools/quant.mjs",
+            "/Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/.run/target/src/settle.ts"
+          ],
+          "cwd_relative": ".",
+          "ended_at": "2026-11-01T19:43:59Z",
+          "environment_fingerprint": {
+            "os": "macOS-27.0.1-arm64-arm-64bit",
+            "python": "3.12.13",
+            "tools": {
+              "git": "git version 2.54.0 (Apple Git-157)",
+              "python": "3.12.13"
+            }
+          },
+          "evidence_paths": {
+            "stdout": ".workproof/evidence/20261101T194358Z_88e60c35.out.gz"
+          },
+          "exit_code": 0,
+          "git": {
+            "head_sha": "03627a7e83958d1a4f7c948110aa8aec1ebc4de0",
+            "tree_hash": "d2427ce1b72bfa252edb0747d0fc12b8c59fbae8"
+          },
+          "hash": "5d246d4ea48c973110060a3888c595dfbbd72169e994f39c2c38ec71d45864b7",
+          "kind": "command",
+          "prev_hash": "5ae2bdb6aff48fa76d56ccb36bdf84cdbc204e117e2f59b6f2222e214ca43bde",
+          "started_at": "2026-11-01T19:43:58Z",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "a85cb8e0562dde5e89a4fcb5eb4ff91df98ffbbeb77f4ac3465fd2ab8b0d3d14"
+        }
+      ],
+      "environment_fingerprint": {
+        "os": "macOS-27.0.1-arm64-arm-64bit",
+        "python": "3.12.13",
+        "tools": {
+          "git": "git version 2.54.0 (Apple Git-157)",
+          "python": "3.12.13"
+        }
+      },
+      "files_changed": [
+        "src/settle.ts"
+      ],
+      "head_sha": "03627a7",
+      "heuristics": {
+        "assertions_removed": 0,
+        "assertions_removed_details": [],
+        "new_skip_markers": 0,
+        "new_skip_markers_details": []
+      },
+      "policy": {
+        "allowed_commands": [
+          "pytest"
+        ],
+        "default_ai_level": "assisted",
+        "policy_version": "0.1"
+      },
+      "schema_version": "0.2",
+      "test_files_added": [],
+      "test_files_deleted": [],
+      "test_files_modified": []
+    },
+    "predicateType": "https://workproof.dev/spec/v0.2",
+    "subject": [
+      {
+        "digest": {
+          "gitSha": "03627a7",
+          "sha1": "03627a7"
+        },
+        "name": "git:03627a7"
+      }
+    ]
+  }
+}
+```
+
+<!-- workproof:sticky:v1 -->
+## Workproof Receipt
+
+| Check | Value |
+|---|---|
+| Head SHA | `03627a7` |
+| AI level | `agent` |
+| Agent | `qoder` |
+| Assertions removed | 0 |
+| New skip/xfail markers | 0 |
+| Test files added/modified/deleted | 0 / 0 / 0 |
+| Signature | `+Hb/nvWAa28BlJYd…` |
+| Public key | `WNQ7ayKapHLz9yt9…` |
+
+<details><summary>Files changed (1)</summary>
+
+- `src/settle.ts`
+
+</details>
+<details><summary>Environment fingerprint</summary>
+
+- OS: `macOS-27.0.1-arm64-arm-64bit`
+- Python: `3.12.13`
+- Tools: `git=git version 2.54.0 (Apple Git-157), python=3.12.13`
+
+</details>
+Verify locally: `workproof verify <receipt.json>`
+

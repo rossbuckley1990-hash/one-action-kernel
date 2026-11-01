@@ -1,0 +1,37 @@
+{
+  "module": "src/settle.ts",
+  "export": "allocate",
+  "seed": 1234567,
+  "invariants": [
+    "conservation",
+    "length",
+    "non_negative",
+    "fair_spread",
+    "deterministic"
+  ],
+  "trials": 200070,
+  "verdict": "VIOLATED",
+  "violations": [
+    {
+      "invariant": "conservation",
+      "failing_inputs": 157643,
+      "first_args": [
+        1,
+        2
+      ],
+      "first_result": [
+        0,
+        0
+      ],
+      "minimal_args": [
+        1,
+        2
+      ],
+      "minimal_result": [
+        0,
+        0
+      ],
+      "detail": "sum(parts)=0 must equal total=1 (no penny created or destroyed)"
+    }
+  ]
+}

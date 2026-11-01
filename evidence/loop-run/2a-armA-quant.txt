@@ -1,0 +1,1 @@
+{"settlements":200000,"incorrect":138692,"pennies_vanished":72025,"pennies_created":122025}

@@ -1,0 +1,24 @@
+
+  SENTINEL  /  verified progress survives
+
+  VERIFICATION · Running
+  TASK → AGENT → CHANGES → VERIFICATION → EVIDENCE → CONTINUATION
+
+  Allocate every penny of a settlement total across parties with a deterministic largest-remainder distribution so no penny is created or destroyed, while preserving even splits and pence formatting
+
+  ✓ VERIFIED             Baseline tests
+  ✓ VERIFIED             Candidate ordinary tests
+    4/4 ordinary tests passed; these do not establish the approved intent
+  ✓ VERIFIED             Preserved baseline tests
+  ✓ VERIFIED             Uneven splits conserve the total exactly; the remainder is distributed deterministically to the leading parties
+  ✓ VERIFIED             Rounding must never over-allocate beyond the total (no penny created out of thin air)
+  ✓ VERIFIED             Even splits are unchanged
+  ✓ VERIFIED             Pence formatting is unchanged
+  ✓ VERIFIED             Observed behaviour: unchanged-formatting
+  ! REVIEW REQUIRED      .gitignore: Changed path has no explicit authorisation in allowedPaths; review is required, not an accusation
+  ! REVIEW REQUIRED      .workproof.yml: Changed path has no explicit authorisation in allowedPaths; review is required, not an accusation
+
+  REVIEW REQUIRED · 7.36s · local advisory verification
+  Results cover the executed checks. They do not prove arbitrary correctness.
+  Receipt cbab5e1fa0bc14598457f20aedc76fd0b815629fd88d8cefe2b4311dcaf45c36
+  Report  /Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/.sentinel-store/reports/cbab5e1fa0bc14598457f20aedc76fd0b815629fd88d8cefe2b4311dcaf45c36.html

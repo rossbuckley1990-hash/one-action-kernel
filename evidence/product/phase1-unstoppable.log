@@ -1,0 +1,56 @@
+
+[1m===== STAGE 0 · SAFETY — blastradius gates every destructive act; rogue steps are refused =====[0m
+  in-scope rm      -> exit=0 (0=allowed, decoy removed=yes)
+blastradius: REFUSED `rm` — destructive target outside policy
+  - target /Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/victim-marker.txt escapes declared scope ['/Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/.run2']
+  out-of-scope rm  -> exit=3 (3=refused, victim survives=yes)
+blastradius: REFUSED `rm` — destructive target outside policy
+  - target /Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/victim-marker.txt escapes declared scope ['/Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/.run2']
+  symlink-escape   -> exit=3 (3=refused, victim survives=yes)
+  rm -rf /         -> exit=3 (3=refused by denylist even if scoped)
+  audit trail:        4 decisions logged to blastradius-audit.jsonl
+
+[1m===== STAGE 1 · MODEL — apprentice models the settlement domain (proactive, unasked) =====[0m
+  Functions found:   0
+  Dead functions:    3
+  Cliché groups:     1
+
+[1m===== STAGE 2 · CLASS-VERIFY baseline — property invariants over 200k inputs =====[0m
+  property exit=1
+   verdict=VIOLATED trials=200070
+   VIOLATION conservation: 157643 failing inputs, minimal=[1, 2] -> [0, 0] (sum(parts)=0 must equal total=1 (no penny created or destroyed))
+
+[1m===== STAGE 3 · Arm A — plausible Math.round fix; ordinary tests stay GREEN (false success) =====[0m
+  patch applied via blastradius (exit=0)
+[2m      Tests [22m [1m[32m4 passed[39m[22m[90m (4)[39m
+  property exit=1
+   verdict=VIOLATED trials=200070
+   VIOLATION conservation: 157643 failing inputs, minimal=[1, 2] -> [1, 1] (sum(parts)=2 must equal total=1 (no penny created or destroyed))
+  sentinel exit=1 (expect 1 CONTRADICTED)
+  CONTRADICTED · Uneven splits conserve the total exactly; the remainder is distributed deterministically to the leading parties
+
+[1m===== STAGE 4 · Arm B — largest-remainder fix; independent class + example verification =====[0m
+  patch applied via blastradius (exit=0)
+[2m      Tests [22m [1m[32m4 passed[39m[22m[90m (4)[39m
+  property exit=0 (expect 0 VERIFIED)
+   verdict=VERIFIED trials=200070
+  sentinel exit=0 (expect 0 VERIFIED)
+  sentinel VERIFIED receipt = 772d0358d2a612bb95a2fad22d81038eb5d134f4a573bf717aa8fd203d0249f5
+
+[1m===== STAGE 5 · REMEMBER — Howdex distils the verified repair into transferable memory =====[0m
+PROCEDURES_DISTILLED: 1
+FRESH_RECALL_HITS: 3
+SOURCE_PASTED_IN_RECALL: False
+
+[1m===== STAGE 6 · PROVE — workproof signs a deterministic receipt over the committed fix =====[0m
+  attest exit=0
+
+[1m===== SUMMARY — one unattended command; every layer produced real evidence =====[0m
+  SAFETY    blastradius   : 3 destructive acts REFUSED (out-of-scope, symlink-escape, denylist); victim survived; 6 audit lines
+  MODEL     apprentice    :  Dead functions: 3 /  Cliché groups: 1
+  CLASS     property      : baseline=VIOLATED · armA=VIOLATED · armB=VERIFIED  (200,070 inputs each; minimal counterexample auto-shrunk)
+  EXAMPLES  sentinel      : armA=CONTRADICTED(exit1) · armB=VERIFIED(exit0) receipt=772d0358d2a612bb…
+  REMEMBER  howdex        : PROCEDURES_DISTILLED: 1 FRESH_RECALL_HITS: 3 SOURCE_PASTED_IN_RECALL: False 
+  PROVE     workproof     : ed25519 signatures=1  base=7c83787 head=e93dcf8  "public_key": "WNQ7ayKapHLz9yt9myIdYIk3Kf1leSNNfvWgiixcMmo="
+  Evidence bundle: /Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/evidence/unstoppable
+KERNEL RESULT: PASS — safe unattended, whole bug class caught, false success contradicted, correct fix verified+remembered+signed.

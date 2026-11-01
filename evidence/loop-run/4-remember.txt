@@ -1,0 +1,14 @@
+PROCEDURES_DISTILLED: 1
+FRESH_RECALL_HITS: 3
+   score=0.426 layer=episodic | Task: repair settlement allocate to conserve total pennies
+Outcome: success
+Duration: 0.00s
+Steps: 3
+Step 1: read_file → floor-fill drops the remainde
+   score=0.426 layer=episodic | Task: repair settlement allocate to conserve total pennies
+Outcome: success
+Duration: 0.00s
+Steps: 3
+Step 1: read_file → floor-fill drops the remainde
+SOURCE_PASTED_IN_RECALL: False
+STATS: {"total_memories": 21, "per_layer": {"episodic": 12, "semantic": 9}, "episodes": 12, "procedures": 1, "pending_sync_ops": 21, "db_path": "/Users/ross/.howdex/howdex.db", "node_id": "c7b6c09a-093a-4d68-b272-ec7b6c9d5928"}

@@ -1,0 +1,4 @@
+  Files indexed:     1
+  Functions found:   0
+  Dead functions:    3
+  Cliché groups:     1

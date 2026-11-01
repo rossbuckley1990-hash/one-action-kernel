@@ -1,0 +1,23 @@
+YOUR AGENT'S BLAST RADIUS
+
+Consequential capabilities: 1
+  Review required:           1
+
+Your agent can reach 1 consequential action without a dominating authorization check.
+
+  EGRESS           1   post
+
+Most exposed: agent_tools.py:25  post()
+  Reachable by:              @mcp.tool() or @tool
+  Consequence:               EGRESS
+  Guard evidence:            none found on the analysed path
+  Model-controlled inputs:   json
+  Rule:                      NET-EGRESS
+  Severity:                  medium (sink match: high)
+
+1 findings in 1 files (0.08s)
+Next:
+  actenon-scan explain agent_tools.py:25
+  actenon-scan fix agent_tools.py:25
+
+Repository analysis: 0 transitively-reachable sinks caught (would have been missed by per-file scan); 0 unresolved agent-entrypoint calls not followed (dynamic dispatch / external modules). Local call analysis: 1 followed, 0 unfollowed.

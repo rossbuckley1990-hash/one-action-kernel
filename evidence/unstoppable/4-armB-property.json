@@ -1,0 +1,15 @@
+{
+  "module": "src/settle.ts",
+  "export": "allocate",
+  "seed": 1234567,
+  "invariants": [
+    "conservation",
+    "length",
+    "non_negative",
+    "fair_spread",
+    "deterministic"
+  ],
+  "trials": 200070,
+  "verdict": "VERIFIED",
+  "violations": []
+}

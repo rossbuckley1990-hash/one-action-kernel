@@ -1,0 +1,30 @@
+== running property-verify fresh on both candidates (200k inputs each) ==
+   arm-a property verdict = VIOLATED (trials=200070)
+   arm-b property verdict = VERIFIED (trials=200070)
+   arm-a sentinel verdict = CONTRADICTED (receipt=5472279512e5)
+   arm-b sentinel verdict = VERIFIED (receipt=772d0358d2a6)
+   cert A overall=NOT_VERIFIED digest=884aac1a83c8…
+   cert B overall=VERIFIED digest=d2b31bb1d809…
+
+== edge gate decisions ==
+   1 Arm A: wrong fix, green tests, valid authority
+      -> REFUSE [CORRECTNESS/NOT_VERIFIED] correctness verdict NOT_VERIFIED (property=VIOLATED, sentinel=CONTRADICTED)
+   2 Arm B: correct fix (proof + cert)
+      -> ALLOW [OK/AUTHORISED_AND_CORRECT] authority proof verified AND correctness certificate verified AND code hash matches AND not a replay
+      side effect EXECUTED -> disbursement.json
+   3 Tamper: cert for B, code swapped to A
+      -> REFUSE [CORRECTNESS/CODE_ARTIFACT_MISMATCH] executing code 6c8373a2de2e… != certified 755e8a8397ef…
+   4 Replay: re-dispatch Arm B (nonce reuse)
+      -> REFUSE [REPLAY/NONCE_REUSED] nonce nonce-armB-0001 already dispatched; refusing duplicate consequential effect
+
+== fused-gate summary ==
+   authority signer : Ed25519 key_id=correctness-fused-issuer-ed25519-v1  (real ed25519 keypair, NOT the public HMAC dev secret)
+   well-known trust root (public JWK): well-known-actenon-keys.json
+   third-party verify with PUBLIC KEY ONLY: OK  (asymmetric: anyone can verify, only the key holder can sign)
+   correctness prover (independent ed25519): oXck2-OjkpabIqOlYYSpruYsBqWC4frHAoOsB4XLMLY=
+   signed decision ledger: /Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/evidence/revolutionary/fused-gate/fused-gate-ledger.jsonl (4 receipts)
+   1 wrong-fix-green-tests  -> REFUSE (correctness, not authority)  : NOT_VERIFIED
+   2 correct-fix            -> ALLOW + executed disbursement        : AUTHORISED_AND_CORRECT
+   3 code swapped post-cert -> REFUSE (hash binding)                : CODE_ARTIFACT_MISMATCH
+   4 blind replay           -> REFUSE (single-use nonce)            : NONCE_REUSED
+FUSED-GATE RESULT: PASS

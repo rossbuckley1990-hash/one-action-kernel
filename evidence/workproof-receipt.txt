@@ -1,0 +1,193 @@
+<!-- workproof:receipt -->
+```workproof-receipt
+{
+  "payload": "eyJfdHlwZSI6Imh0dHBzOi8vaW4tdG90by5pby9TdGF0ZW1lbnQvdjEiLCJwcmVkaWNhdGUiOnsiYWdlbnQiOiJxb2RlciIsImFpX2xldmVsIjoiYWdlbnQiLCJiYXNlX3NoYSI6IjQyNzY1YWNlYzE2NDQxNzQyNmQ4OTZhNGJiMzU4OTBmMTg3M2EzZDkiLCJlbnRyaWVzIjpbeyJhcmd2IjpbIm5vZGVfbW9kdWxlcy8uYmluL3ZpdGVzdCIsInJ1biJdLCJjd2RfcmVsYXRpdmUiOiIuIiwiZW5kZWRfYXQiOiIyMDI2LTExLTAxVDE5OjM3OjU5WiIsImVudmlyb25tZW50X2ZpbmdlcnByaW50Ijp7Im9zIjoibWFjT1MtMjcuMC4xLWFybTY0LWFybS02NGJpdCIsInB5dGhvbiI6IjMuMTIuMTMiLCJ0b29scyI6eyJnaXQiOiJnaXQgdmVyc2lvbiAyLjU0LjAgKEFwcGxlIEdpdC0xNTcpIiwicHl0aG9uIjoiMy4xMi4xMyJ9fSwiZXZpZGVuY2VfcGF0aHMiOnsic3Rkb3V0IjoiLndvcmtwcm9vZi9ldmlkZW5jZS8yMDI2MTEwMVQxOTM3NThaXzI4YzZhYzM2Lm91dC5neiJ9LCJleGl0X2NvZGUiOjAsImdpdCI6eyJoZWFkX3NoYSI6IjlkZDFhMDNiNTU2NDUxYmRmZTM0MzA1MjlmMTMzMzljOWZjYzNhZTgiLCJ0cmVlX2hhc2giOiJmZjQzOTNkNGJiYjRmNDdjNjMwMWU3NGU4MTU4NGExMWM2NzU1MDc4In0sImhhc2giOiI2MzRkZWMxNTgwZTQ4NGEwOGMwOGMwNWMwZmRjMTg5YjYyNWU4ODJkN2E0YmRjYzZkZjU1MGRlMDg4NTA2YzU1Iiwia2luZCI6ImNvbW1hbmQiLCJwcmV2X2hhc2giOm51bGwsInN0YXJ0ZWRfYXQiOiIyMDI2LTExLTAxVDE5OjM3OjU4WiIsInN0ZGVycl9zaGEyNTYiOiJlM2IwYzQ0Mjk4ZmMxYzE0OWFmYmY0Yzg5OTZmYjkyNDI3YWU0MWU0NjQ5YjkzNGNhNDk1OTkxYjc4NTJiODU1Iiwic3Rkb3V0X3NoYTI1NiI6IjY0ZTg1MzMzYWM1NWI1YmVjZDQ0NDMyZWJhYTYzYjFmODJiZTYwM2FiODVjNjkzYjI2YzY5ZTdkZTllN2UxZjYifSx7ImFyZ3YiOlsibm9kZSIsIi9Vc2Vycy9yb3NzL0RvY3VtZW50cy9Rb2Rlci8yMDI2LTExLTAxL2Q2NDljZmY3L2FnZW50LWxhYi9zZW50aW5lbC12ZXJpZmllZC9kaXN0L2NsaS5qcyIsInZlcmlmeSIsIi0tcmVwbyIsIi9Vc2Vycy9yb3NzL0RvY3VtZW50cy9Rb2Rlci8yMDI2LTExLTAxL2Q2NDljZmY3L2FnZW50LWxhYi9leHBlcmltZW50L3RhcmdldC1zZXR0bGVtZW50IiwiLS1iYXNlbGluZSIsIkhFQUR+MSIsIi0tY29udHJhY3QiLCIvVXNlcnMvcm9zcy9Eb2N1bWVudHMvUW9kZXIvMjAyNi0xMS0wMS9kNjQ5Y2ZmNy9hZ2VudC1sYWIvZXhwZXJpbWVudC9zZXR0bGVtZW50LWNvbnRyYWN0Lmpzb24iLCItLWFsbG93LWxvY2FsIiwiLS1zdG9yZSIsIi9Vc2Vycy9yb3NzL0RvY3VtZW50cy9Rb2Rlci8yMDI2LTExLTAxL2Q2NDljZmY3L2FnZW50LWxhYi9leHBlcmltZW50Ly5zZW50aW5lbC1zdG9yZSJdLCJjd2RfcmVsYXRpdmUiOiIuIiwiZW5kZWRfYXQiOiIyMDI2LTExLTAxVDE5OjM4OjEwWiIsImVudmlyb25tZW50X2ZpbmdlcnByaW50Ijp7Im9zIjoibWFjT1MtMjcuMC4xLWFybTY0LWFybS02NGJpdCIsInB5dGhvbiI6IjMuMTIuMTMiLCJ0b29scyI6eyJnaXQiOiJnaXQgdmVyc2lvbiAyLjU0LjAgKEFwcGxlIEdpdC0xNTcpIiwicHl0aG9uIjoiMy4xMi4xMyJ9fSwiZXZpZGVuY2VfcGF0aHMiOnsic3Rkb3V0IjoiLndvcmtwcm9vZi9ldmlkZW5jZS8yMDI2MTEwMVQxOTM4MDBaXzFiN2I0MjhiLm91dC5neiJ9LCJleGl0X2NvZGUiOjEsImdpdCI6eyJoZWFkX3NoYSI6IjlkZDFhMDNiNTU2NDUxYmRmZTM0MzA1MjlmMTMzMzljOWZjYzNhZTgiLCJ0cmVlX2hhc2giOiJmZjQzOTNkNGJiYjRmNDdjNjMwMWU3NGU4MTU4NGExMWM2NzU1MDc4In0sImhhc2giOiIyNjg2NTQ1YjEyMjI5ZGNhNTUyNDkxZDg5Nzc3M2YzZWEyYzA0NGNlMWY5ZjZmNzkyZGVlMmExMzY5ODY0MjY0Iiwia2luZCI6ImNvbW1hbmQiLCJwcmV2X2hhc2giOiI2MzRkZWMxNTgwZTQ4NGEwOGMwOGMwNWMwZmRjMTg5YjYyNWU4ODJkN2E0YmRjYzZkZjU1MGRlMDg4NTA2YzU1Iiwic3RhcnRlZF9hdCI6IjIwMjYtMTEtMDFUMTk6Mzg6MDBaIiwic3RkZXJyX3NoYTI1NiI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUiLCJzdGRvdXRfc2hhMjU2IjoiYTY0OTQ1MWIzNWVlYjkxMjE4N2MxNjZhZTIwOWRmYTQzMjE0ZjBlYWE0ODcwYjY4ZWU1NDUxNzE2OGU1ZjdjYSJ9LHsiYXJndiI6WyJub2RlX21vZHVsZXMvLmJpbi90c3giLCIvVXNlcnMvcm9zcy9Eb2N1bWVudHMvUW9kZXIvMjAyNi0xMS0wMS9kNjQ5Y2ZmNy9hZ2VudC1sYWIvZXhwZXJpbWVudC90b29scy9xdWFudC5tanMiXSwiY3dkX3JlbGF0aXZlIjoiLiIsImVuZGVkX2F0IjoiMjAyNi0xMS0wMVQxOTozODoxMVoiLCJlbnZpcm9ubWVudF9maW5nZXJwcmludCI6eyJvcyI6Im1hY09TLTI3LjAuMS1hcm02NC1hcm0tNjRiaXQiLCJweXRob24iOiIzLjEyLjEzIiwidG9vbHMiOnsiZ2l0IjoiZ2l0IHZlcnNpb24gMi41NC4wIChBcHBsZSBHaXQtMTU3KSIsInB5dGhvbiI6IjMuMTIuMTMifX0sImV2aWRlbmNlX3BhdGhzIjp7InN0ZG91dCI6Ii53b3JrcHJvb2YvZXZpZGVuY2UvMjAyNjExMDFUMTkzODEwWl8xY2QyMTQ3NC5vdXQuZ3oifSwiZXhpdF9jb2RlIjowLCJnaXQiOnsiaGVhZF9zaGEiOiI5ZGQxYTAzYjU1NjQ1MWJkZmUzNDMwNTI5ZjEzMzM5YzlmY2MzYWU4IiwidHJlZV9oYXNoIjoiZmY0MzkzZDRiYmI0ZjQ3YzYzMDFlNzRlODE1ODRhMTFjNjc1NTA3OCJ9LCJoYXNoIjoiMDZlNjY5N2MyNGMzZWI3YjBkZjE4OWY5MmFhNjk3YWYyMzdhMTQ0Zjk4MDNlYzRmYzBhODliMWM4YWM4ODIwOCIsImtpbmQiOiJjb21tYW5kIiwicHJldl9oYXNoIjoiMjY4NjU0NWIxMjIyOWRjYTU1MjQ5MWQ4OTc3NzNmM2VhMmMwNDRjZTFmOWY2Zjc5MmRlZTJhMTM2OTg2NDI2NCIsInN0YXJ0ZWRfYXQiOiIyMDI2LTExLTAxVDE5OjM4OjEwWiIsInN0ZGVycl9zaGEyNTYiOiJlM2IwYzQ0Mjk4ZmMxYzE0OWFmYmY0Yzg5OTZmYjkyNDI3YWU0MWU0NjQ5YjkzNGNhNDk1OTkxYjc4NTJiODU1Iiwic3Rkb3V0X3NoYTI1NiI6ImE4NWNiOGUwNTYyZGRlNWU4OWE0ZmNiNWViNGZmOTFkZjk4ZmZiYmViNzdmNGFjMzQ2NWZkMmFiOGIwZDNkMTQifV0sImVudmlyb25tZW50X2ZpbmdlcnByaW50Ijp7Im9zIjoibWFjT1MtMjcuMC4xLWFybTY0LWFybS02NGJpdCIsInB5dGhvbiI6IjMuMTIuMTMiLCJ0b29scyI6eyJnaXQiOiJnaXQgdmVyc2lvbiAyLjU0LjAgKEFwcGxlIEdpdC0xNTcpIiwicHl0aG9uIjoiMy4xMi4xMyJ9fSwiZmlsZXNfY2hhbmdlZCI6WyJzcmMvc2V0dGxlLnRzIl0sImhlYWRfc2hhIjoiOWRkMWEwM2I1NTY0NTFiZGZlMzQzMDUyOWYxMzMzOWM5ZmNjM2FlOCIsImhldXJpc3RpY3MiOnsiYXNzZXJ0aW9uc19yZW1vdmVkIjowLCJhc3NlcnRpb25zX3JlbW92ZWRfZGV0YWlscyI6W10sIm5ld19za2lwX21hcmtlcnMiOjAsIm5ld19za2lwX21hcmtlcnNfZGV0YWlscyI6W119LCJwb2xpY3kiOnsiYWxsb3dlZF9jb21tYW5kcyI6WyJweXRlc3QiXSwiZGVmYXVsdF9haV9sZXZlbCI6ImFzc2lzdGVkIiwicG9saWN5X3ZlcnNpb24iOiIwLjEifSwic2NoZW1hX3ZlcnNpb24iOiIwLjIiLCJ0ZXN0X2ZpbGVzX2FkZGVkIjpbXSwidGVzdF9maWxlc19kZWxldGVkIjpbXSwidGVzdF9maWxlc19tb2RpZmllZCI6W119LCJwcmVkaWNhdGVUeXBlIjoiaHR0cHM6Ly93b3JrcHJvb2YuZGV2L3NwZWMvdjAuMiIsInN1YmplY3QiOlt7ImRpZ2VzdCI6eyJnaXRTaGEiOiI5ZGQxYTAzYjU1NjQ1MWJkZmUzNDMwNTI5ZjEzMzM5YzlmY2MzYWU4Iiwic2hhMSI6IjlkZDFhMDNiNTU2NDUxYmRmZTM0MzA1MjlmMTMzMzljOWZjYzNhZTgifSwibmFtZSI6ImdpdDo5ZGQxYTAzYjU1NjQ1MWJkZmUzNDMwNTI5ZjEzMzM5YzlmY2MzYWU4In1dfQ==",
+  "payload_type": "application/vnd.in-toto+json",
+  "public_key": "WNQ7ayKapHLz9yt9myIdYIk3Kf1leSNNfvWgiixcMmo=",
+  "schema_version": "0.2",
+  "signatures": [
+    {
+      "keyid": "ed25519",
+      "sig": "i59JKrWN7I5FKNXDYf0uXfS4fmCXv6K4wq1EF+xjOGKMg+oGzVKhqoBaIgBqfu6kyCiQ8VUwe9Huf9WA9J1TDw=="
+    }
+  ],
+  "statement": {
+    "_type": "https://in-toto.io/Statement/v1",
+    "predicate": {
+      "agent": "qoder",
+      "ai_level": "agent",
+      "base_sha": "42765acec164417426d896a4bb35890f1873a3d9",
+      "entries": [
+        {
+          "argv": [
+            "node_modules/.bin/vitest",
+            "run"
+          ],
+          "cwd_relative": ".",
+          "ended_at": "2026-11-01T19:37:59Z",
+          "environment_fingerprint": {
+            "os": "macOS-27.0.1-arm64-arm-64bit",
+            "python": "3.12.13",
+            "tools": {
+              "git": "git version 2.54.0 (Apple Git-157)",
+              "python": "3.12.13"
+            }
+          },
+          "evidence_paths": {
+            "stdout": ".workproof/evidence/20261101T193758Z_28c6ac36.out.gz"
+          },
+          "exit_code": 0,
+          "git": {
+            "head_sha": "9dd1a03b556451bdfe3430529f13339c9fcc3ae8",
+            "tree_hash": "ff4393d4bbb4f47c6301e74e81584a11c6755078"
+          },
+          "hash": "634dec1580e484a08c08c05c0fdc189b625e882d7a4bdcc6df550de088506c55",
+          "kind": "command",
+          "prev_hash": null,
+          "started_at": "2026-11-01T19:37:58Z",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "64e85333ac55b5becd44432ebaa63b1f82be603ab85c693b26c69e7de9e7e1f6"
+        },
+        {
+          "argv": [
+            "node",
+            "/Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/sentinel-verified/dist/cli.js",
+            "verify",
+            "--repo",
+            "/Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/target-settlement",
+            "--baseline",
+            "HEAD~1",
+            "--contract",
+            "/Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/settlement-contract.json",
+            "--allow-local",
+            "--store",
+            "/Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/.sentinel-store"
+          ],
+          "cwd_relative": ".",
+          "ended_at": "2026-11-01T19:38:10Z",
+          "environment_fingerprint": {
+            "os": "macOS-27.0.1-arm64-arm-64bit",
+            "python": "3.12.13",
+            "tools": {
+              "git": "git version 2.54.0 (Apple Git-157)",
+              "python": "3.12.13"
+            }
+          },
+          "evidence_paths": {
+            "stdout": ".workproof/evidence/20261101T193800Z_1b7b428b.out.gz"
+          },
+          "exit_code": 1,
+          "git": {
+            "head_sha": "9dd1a03b556451bdfe3430529f13339c9fcc3ae8",
+            "tree_hash": "ff4393d4bbb4f47c6301e74e81584a11c6755078"
+          },
+          "hash": "2686545b12229dca552491d897773f3ea2c044ce1f9f6f792dee2a1369864264",
+          "kind": "command",
+          "prev_hash": "634dec1580e484a08c08c05c0fdc189b625e882d7a4bdcc6df550de088506c55",
+          "started_at": "2026-11-01T19:38:00Z",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "a649451b35eeb912187c166ae209dfa43214f0eaa4870b68ee54517168e5f7ca"
+        },
+        {
+          "argv": [
+            "node_modules/.bin/tsx",
+            "/Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/tools/quant.mjs"
+          ],
+          "cwd_relative": ".",
+          "ended_at": "2026-11-01T19:38:11Z",
+          "environment_fingerprint": {
+            "os": "macOS-27.0.1-arm64-arm-64bit",
+            "python": "3.12.13",
+            "tools": {
+              "git": "git version 2.54.0 (Apple Git-157)",
+              "python": "3.12.13"
+            }
+          },
+          "evidence_paths": {
+            "stdout": ".workproof/evidence/20261101T193810Z_1cd21474.out.gz"
+          },
+          "exit_code": 0,
+          "git": {
+            "head_sha": "9dd1a03b556451bdfe3430529f13339c9fcc3ae8",
+            "tree_hash": "ff4393d4bbb4f47c6301e74e81584a11c6755078"
+          },
+          "hash": "06e6697c24c3eb7b0df189f92aa697af237a144f9803ec4fc0a89b1c8ac88208",
+          "kind": "command",
+          "prev_hash": "2686545b12229dca552491d897773f3ea2c044ce1f9f6f792dee2a1369864264",
+          "started_at": "2026-11-01T19:38:10Z",
+          "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_sha256": "a85cb8e0562dde5e89a4fcb5eb4ff91df98ffbbeb77f4ac3465fd2ab8b0d3d14"
+        }
+      ],
+      "environment_fingerprint": {
+        "os": "macOS-27.0.1-arm64-arm-64bit",
+        "python": "3.12.13",
+        "tools": {
+          "git": "git version 2.54.0 (Apple Git-157)",
+          "python": "3.12.13"
+        }
+      },
+      "files_changed": [
+        "src/settle.ts"
+      ],
+      "head_sha": "9dd1a03b556451bdfe3430529f13339c9fcc3ae8",
+      "heuristics": {
+        "assertions_removed": 0,
+        "assertions_removed_details": [],
+        "new_skip_markers": 0,
+        "new_skip_markers_details": []
+      },
+      "policy": {
+        "allowed_commands": [
+          "pytest"
+        ],
+        "default_ai_level": "assisted",
+        "policy_version": "0.1"
+      },
+      "schema_version": "0.2",
+      "test_files_added": [],
+      "test_files_deleted": [],
+      "test_files_modified": []
+    },
+    "predicateType": "https://workproof.dev/spec/v0.2",
+    "subject": [
+      {
+        "digest": {
+          "gitSha": "9dd1a03b556451bdfe3430529f13339c9fcc3ae8",
+          "sha1": "9dd1a03b556451bdfe3430529f13339c9fcc3ae8"
+        },
+        "name": "git:9dd1a03b556451bdfe3430529f13339c9fcc3ae8"
+      }
+    ]
+  }
+}
+```
+
+<!-- workproof:sticky:v1 -->
+## Workproof Receipt
+
+| Check | Value |
+|---|---|
+| Head SHA | `9dd1a03b556451bdfe3430529f13339c9fcc3ae8` |
+| AI level | `agent` |
+| Agent | `qoder` |
+| Assertions removed | 0 |
+| New skip/xfail markers | 0 |
+| Test files added/modified/deleted | 0 / 0 / 0 |
+| Signature | `i59JKrWN7I5FKNXD…` |
+| Public key | `WNQ7ayKapHLz9yt9…` |
+
+<details><summary>Files changed (1)</summary>
+
+- `src/settle.ts`
+
+</details>
+<details><summary>Environment fingerprint</summary>
+
+- OS: `macOS-27.0.1-arm64-arm-64bit`
+- Python: `3.12.13`
+- Tools: `git=git version 2.54.0 (Apple Git-157), python=3.12.13`
+
+</details>
+Verify locally: `workproof verify <receipt.json>`
+

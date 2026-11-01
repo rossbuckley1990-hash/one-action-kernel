@@ -1,0 +1,13 @@
+{
+  "issuer": "correctness-fused-issuer",
+  "keys": [
+    {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "kid": "correctness-fused-issuer-ed25519-v1",
+      "use": "sig",
+      "alg": "EdDSA",
+      "x": "9ITPBJ2f5RKB7G0uyX8UmHskxSTc35U74L56ngruNm0="
+    }
+  ]
+}

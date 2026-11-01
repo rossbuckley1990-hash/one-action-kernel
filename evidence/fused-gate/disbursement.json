@@ -1,0 +1,9 @@
+{
+  "allocation_id": "alloc_001",
+  "total_pence": 1000000,
+  "parties": 3,
+  "executed_at": "2026-11-01T20:51:32.732963Z",
+  "authority": "actenon-pccb:nonce-armB-0001",
+  "correctness_cert": "eea99119d9df7ea2661a7b1b7cd8f26aef35f01f5ba8b698997f661f0b8852ee",
+  "code_sha256": "755e8a8397efb9c02c387c87e89f4c53e20637b7933a75f9b9607ee770fa9ee7"
+}

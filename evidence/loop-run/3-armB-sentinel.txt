@@ -1,0 +1,22 @@
+
+  SENTINEL  /  verified progress survives
+
+  VERIFICATION · Running
+  TASK → AGENT → CHANGES → VERIFICATION → EVIDENCE → CONTINUATION
+
+  Allocate every penny of a settlement total across parties with a deterministic largest-remainder distribution so no penny is created or destroyed, while preserving even splits and pence formatting
+
+  ✓ VERIFIED             Baseline tests
+  ✓ VERIFIED             Candidate ordinary tests
+    4/4 ordinary tests passed; these do not establish the approved intent
+  ✓ VERIFIED             Preserved baseline tests
+  ✓ VERIFIED             Uneven splits conserve the total exactly; the remainder is distributed deterministically to the leading parties
+  ✓ VERIFIED             Rounding must never over-allocate beyond the total (no penny created out of thin air)
+  ✓ VERIFIED             Even splits are unchanged
+  ✓ VERIFIED             Pence formatting is unchanged
+  ✓ VERIFIED             Observed behaviour: unchanged-formatting
+
+  VERIFIED · 8.57s · local advisory verification
+  Results cover the executed checks. They do not prove arbitrary correctness.
+  Receipt 851474a12117788c9ff2dcf1ffee6ced1c7ea83814cf546c38617ac9fbca0d22
+  Report  /Users/ross/Documents/Qoder/2026-11-01/d649cff7/agent-lab/experiment/.run/.sentinel-store/reports/851474a12117788c9ff2dcf1ffee6ced1c7ea83814cf546c38617ac9fbca0d22.html
